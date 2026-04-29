@@ -42,7 +42,7 @@ table {
 	border-spacing: 0;
 }
 a{
-  text-decoration: none;
+  text-decoration:none;
   color:inherit;
 }
 img{
@@ -50,5 +50,5 @@ img{
 }
 button, input{
   background: none;
-  border: none;
+  border:none;
 }
