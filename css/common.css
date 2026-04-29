@@ -47,14 +47,17 @@ body{
   font-size: var(--heading--s);
   line-height: var(--base-unit);
 }
+
 .text-body-l{
  font-size: var(--body--l);
  line-height: calc(var(--base-unit) * 2);
 }
+
 .text-body-m{
  font-size: var(--body--m);
  line-height: var(--base-unit);
 }
+
 .text-body-m-plus{
  font-size: var(--body--m-pius);
  line-height: var(--base-unit);
@@ -74,6 +77,11 @@ body{
   gap:5px;
   text-transform:uppercase;
 }
+
+.btn .material-icons{
+  font-size: 14px;
+}
+
 .btn-primary{
   background: var(--primary);
   color:var(--secondary);
@@ -130,3 +138,21 @@ form button{
 }
 
 /* 헤더 */
+body > header {
+  background: var(--white);
+  padding: var(--base-unit) 0;
+  box-shadow:0 4px 5px rgba(0,0,0,.1);
+}
+.logo span{
+  position: absolute;
+  clip-path:inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+header nav ul{
+  gap:10px;
+}
+header nav ul li:first-child{
+  margin-right: 40px;
+}
