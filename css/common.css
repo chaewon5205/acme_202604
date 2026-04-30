@@ -170,6 +170,10 @@ hr {
   background: var(--super--light--gray);
 }
 
+.text-link {
+  text-decoration: underline;
+  color: var(--primary);
+}
 /* 헤더 */
 body > header {
   background: var(--white);
